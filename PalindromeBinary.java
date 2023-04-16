@@ -11,7 +11,8 @@ public class PalindromeBinary {
     }
     
     public static void main(String[] args) {
-        int n = 10;
+       
+        int n = 10;//give our value here
         boolean isPalindrome = isPalindromeBinary(n);
         System.out.println("Binary representation of " + n + " is " + Integer.toBinaryString(n));
         if (isPalindrome) {
